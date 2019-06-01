@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root{
+    --lightPink: rgba(255, 182, 193, 0.6);
+    --linksPurple: rgb(177, 41, 177);
+    --pageBlue: rgb(50, 172, 248);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: var(--lightPink);
+}
+
+.main {
+padding: 0 5%;
+}
+
+header>h1 {
+    color: purple;
+    margin: 0;
+    padding: 20px;
+}
+
+header>ul {
+    list-style-type: none;
+    color: var(--linksPurple);
+    padding: 15px;
+}
+
+header li {
+    display: inline-block;
+    width: 10%;
+    min-width: 100px;
+}
+
+h2 {
+    color: var(--pageBlue)
+}
+div p {
+    width: 70%;
+    margin: auto;
+}
+
+.blog ul {
+    list-style-type: none;
+    color: var(--linksPurple)
+}
+
+.blog li {
+    display: inline-block;
+    width: 10%;
+    min-width: 150px;
+    padding: 5px;
+}
