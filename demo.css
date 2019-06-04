@@ -35,8 +35,8 @@ header>ul {
 
 header li {
     display: inline-block;
-    width: 10%;
-    min-width: 100px;
+    width: 100%;
+    min-width: 200px;
 }
 
 h2 {
